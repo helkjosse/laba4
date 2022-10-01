@@ -27,7 +27,7 @@ def test1():
     print("Тест 1")
     staff_n = 3
     staff_h_d = [20, 40, 60]
-    taxi_n_t = {1: 40, 2: 10, 3: 20}
+    taxi_n_t = {1: 30, 2: 10, 3: 20}
     calculate(staff_n, staff_h_d, taxi_n_t)
 
 
@@ -48,10 +48,6 @@ def test3():
 
 
 if __name__ == '__main__':
-    test1()
-    test2()
-    test3()
-
     n = int(input("Введите количество работников, которым нужно заказать такси: "))
 
     n_dist = []
